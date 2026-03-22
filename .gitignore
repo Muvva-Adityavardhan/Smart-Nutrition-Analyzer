@@ -1,7 +1,7 @@
 # OSX
 #
 .DS_Store
-
+.env
 # Xcode
 #
 build/
@@ -65,7 +65,7 @@ yarn-error.log
 
 # testing
 /coverage
-
+android/app/debug.keystore
 # Yarn
 .yarn/*
 !.yarn/patches
@@ -73,3 +73,45 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+android/.settings
+android/keystore.properties
+android/*.keystore
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metro / React Native cache
+.expo/
+.bundle/
+*.log
+
+# Android build files
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# iOS build files
+ios/build/
+ios/Pods/
+
+# Temporary files
+*.tmp
+*.swp
