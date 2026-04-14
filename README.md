@@ -312,7 +312,7 @@ cd android && ./gradlew assembleRelease
 
 ## 📱 Screenshots
 
-> Coming soon — add your screenshots below
+> Coming soon
 
 | Home | Scan | Analysis | Reports |
 |---|---|---|---|
